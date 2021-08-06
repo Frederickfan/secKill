@@ -36,12 +36,12 @@ Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generatorconfig_1_0.dtd">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
-        <table schema="" tableName="seckill_activity"
-               domainObjectName="SeckillActivity" enableCountByExample="false"
+        <table schema="" tableName="seckill_order"
+               domainObjectName="Order" enableCountByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false" selectByExampleQueryId="false"></table>
-        <table schema="" tableName="seckill_commodity"
-               domainObjectName="SeckillCommodity" enableCountByExample="false"
+        <table schema="" tableName="seckill_user"
+               domainObjectName="User" enableCountByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false" selectByExampleQueryId="false"></table>
     </context>

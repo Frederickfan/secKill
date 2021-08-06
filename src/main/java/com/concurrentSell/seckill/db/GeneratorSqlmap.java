@@ -1,4 +1,4 @@
-package db;
+package com.concurrentSell.seckill.db;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
